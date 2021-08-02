@@ -1,0 +1,26 @@
+.modal {
+  h3 {
+    font-size: 24px;
+  }
+
+  &-userForm {
+    padding: 20px 10px;
+
+    input {
+      width: calc(100% - 28px);
+      border: 1px solid black;
+      border-radius: 5px;
+      height: 40px;
+      padding: 0px 12px;
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+  }
+
+  button {
+      &:disabled {
+          cursor: not-allowed;
+          background-color: cadetblue;
+      }
+  }
+}
